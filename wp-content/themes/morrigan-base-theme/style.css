@@ -1726,6 +1726,11 @@ a {
     .testimonials .flex-prev::before,
     .testimonials .flex-next::before {
       font-family: 'FontAwesome'; }
+    .testimonials .flex-prev:hover,
+    .testimonials .flex-next:hover {
+      background: #1a1a1a;
+      color: #fff;
+      border-color: #1a1a1a; }
   .testimonials .flex-prev {
     left: -53px; }
     .testimonials .flex-prev::before {
@@ -1765,7 +1770,10 @@ a {
     border: 0;
     font-family: "Avenir", "Avenir LT Std", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     text-align: center;
-    height: 80px; }
+    height: 80px;
+    -webkit-transition: all 0.75s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -o-transition: all 0.75s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.75s cubic-bezier(0.165, 0.84, 0.44, 1); }
     .hero-container input:focus {
       outline: none; }
   .hero-container input[type="email"] {
@@ -1789,9 +1797,14 @@ a {
   .hero-container input[type="submit"] {
     margin-top: 20px;
     background: #f03f3f;
+    border: 5px solid #f03f3f;
     text-transform: uppercase;
     letter-spacing: .2em;
-    color: #fff; }
+    color: #fff;
+    cursor: pointer; }
+    .hero-container input[type="submit"]:hover {
+      background: transparent;
+      color: #f03f3f; }
   .hero-container .content-wrap {
     position: absolute;
     top: 50%;
