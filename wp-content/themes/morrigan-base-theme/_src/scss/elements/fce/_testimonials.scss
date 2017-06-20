@@ -84,6 +84,12 @@
     &::before {
       font-family: 'FontAwesome';
     }
+
+    &:hover {
+      background: $color-font;
+      color: $color-background;
+      border-color: $color-font;
+    }
   }
 
   .flex-prev {
