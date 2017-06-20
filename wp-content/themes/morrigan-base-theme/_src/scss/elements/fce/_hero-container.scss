@@ -33,6 +33,7 @@
     font-family: $font-family-base;
     text-align: center;
     height: 80px;
+    transition: $transition;
 
     &:focus {
       outline: none;
@@ -55,9 +56,16 @@
   input[type="submit"] {
     margin-top: 20px;
     background: $color-cta;
+    border: 5px solid $color-cta;
     text-transform: uppercase;
     letter-spacing: .2em;
     color: $color-neutral-brightest;
+    cursor: pointer;
+
+    &:hover {
+      background: transparent;
+      color: $color-cta;
+    }
   }
 
   .content-wrap {
