@@ -1,0 +1,29 @@
+.video-element {
+  margin-top: 200px;
+
+  figure {
+    position: relative;
+
+    &::before {
+      width: 120px;
+      height: 120px;
+      background: rgba($color-neutral-brightest,.5);
+      border: 10px solid $color-neutral-brightest;
+      color: $color-neutral-brightest;
+      text-align: center;
+      line-height: 120px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      content: '\f04b';
+      font-family: 'FontAwesome';
+      font-size: 24px;
+    }
+
+    img {
+      display: block;
+      height: auto;
+    }
+  }
+}

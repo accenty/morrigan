@@ -1,8 +1,8 @@
-<!doctype html>
+<!DOCTYPE html>
 <html <?php language_attributes(); ?> class="no-js">
 	<head>
 		<meta charset="<?php bloginfo('charset'); ?>">
-		<title><?php wp_title(''); ?><?php	if(wp_title('', false)) { echo ' :'; } ?><?php	bloginfo('name'); ?></title>
+		<title><?php wp_title(''); ?><?php	if(wp_title('', false)) { echo ' :'; } ?><?php bloginfo('name'); ?></title>
 
 		<link href="//www.google-analytics.com" rel="dns-prefetch">
 
@@ -15,14 +15,13 @@
 		<?php wp_head(); ?>
 	</head>
 	<body <?php body_class(); ?>>
-
-			<header>
-					<div class="logo">
-						<a href="<?php echo home_url(); ?>">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo" class="logo-img">
-						</a>
-					</div>
-					<nav class="nav" role="navigation">
-						<?php morrigan_nav(); ?>
-					</nav>
-			</header>
+		<header class="header">
+			<div class="content-wrap">
+				<a href="<?php echo home_url(); ?>" class="logo">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="<?php bloginfo('name'); ?>" title="<?php bloginfo('name'); ?>">
+				</a>
+				<nav class="main-nav">
+					<?php wp_nav_menu(array('theme_location' => 'header-navigation')); ?>
+				</nav>
+			</div>
+		</header>

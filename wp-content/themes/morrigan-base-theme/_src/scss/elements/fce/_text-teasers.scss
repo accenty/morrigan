@@ -1,0 +1,50 @@
+.text-teasers {
+  margin-top: 110px;
+
+  .content-wrap {
+    display: flex;
+  }
+
+  .teaser {
+    margin-right: 40px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &::before {
+      display: inline-block;
+      content: '+';
+      width: 60px;
+      height: 60px;
+      border: 2px solid $color-font;
+      color: $color-font;
+      font-size: 24px;
+      text-align: center;
+      line-height: 60px;
+      transition: $transition;
+    }
+
+    &:hover {
+      &::before {
+        background: $color-font;
+        color: $color-neutral-brightest;
+      }
+    }
+
+    h2 {
+      color: $color-font;
+      font-size: 24px;
+      line-height: 37px;
+      font-weight: bold;
+      margin-top: 25px;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 28px;
+      color: $color-font-light;
+      margin-top: 17px;
+    }
+  }
+}

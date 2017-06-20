@@ -1,0 +1,115 @@
+.testimonials {
+  text-align: center;
+  margin-top: 192px;
+
+  h3 {
+    font-size: 38px;
+    line-height: 46px;
+    font-weight: bold;
+  }
+
+  .flexslider {
+    margin: auto;
+    max-width: 590px;
+    margin-top: 41px;
+    position: relative;
+    padding-bottom: 80px;
+  }
+
+  .flex-viewport {
+    border: 5px solid $color-neutral-1;
+  }
+
+  .slide {
+    width: 100%;
+    display: block;
+
+    .inner-content {
+      padding: 80px;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 26px;
+      color: $color-font-light;
+      display: block;
+    }
+
+    .user {
+      margin: auto;
+      margin-top: 49px;
+      max-width: 210px;
+      display: flex;
+      justify-content: space-between;
+
+      figure {
+        width: 60px;
+        height: 60px;
+      }
+
+      .user-info {
+        text-align: left;
+
+        strong {
+          font-weight: bold;
+        }
+
+        p {
+          color: $color-font;
+        }
+      }
+    }
+  }
+
+  .flex-prev,
+  .flex-next {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(calc(-50% - 40px));
+    z-index: 10;
+    display: block;
+    color: $color-font-light;
+    border: 2px solid $color-neutral-1;
+    text-align: center;
+    line-height: 29px;
+
+    span {
+      display: inline-block;
+      text-indent: -9999px;
+    }
+
+    &::before {
+      font-family: 'FontAwesome';
+    }
+  }
+
+  .flex-prev {
+    left: -53px;
+
+    &::before {
+      content: '\f104';
+    }
+  }
+
+  .flex-next {
+    right: -53px;
+
+    &::before {
+      content: '\f105';
+    }
+  }
+
+  .flex-control-nav {
+    bottom: 0;
+  }
+
+  .flex-control-paging {
+    a {
+      width: 8px;
+      height: 8px;
+    }
+  }
+}

@@ -1,0 +1,69 @@
+.hero-container {
+  margin-top: 208px;
+  position: relative;
+  text-align: center;
+
+  figure {
+
+  }
+
+  img {
+    display: block;
+    height: auto;
+  }
+
+  h2 {
+    font-size: 47px;
+    line-height: 50px;
+    font-weight: bold;
+    color: $color-neutral-brightest;
+  }
+
+  form {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 45px;
+  }
+
+  input {
+    width: 100%;
+    display: block;
+    appearance: none;
+    border: 0;
+    font-family: $font-family-base;
+    text-align: center;
+    height: 80px;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  input[type="email"] {
+    background: rgba($color-neutral-brightest,.2);
+    border: 5px solid $color-neutral-brightest;
+    color: $color-background;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+
+    &::placeholder {
+      opacity: 1;
+      color: $color-background;
+    }
+  }
+
+  input[type="submit"] {
+    margin-top: 20px;
+    background: $color-cta;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    color: $color-neutral-brightest;
+  }
+
+  .content-wrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+}

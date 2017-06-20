@@ -1,0 +1,40 @@
+.image-text-element {
+  text-align: center;
+  margin-top: 200px;
+
+  .content-wrap {
+    max-width: 826px;
+  }
+
+  h2 {
+    font-size: 38px;
+    line-height: 46px;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 40px;
+    color: $color-font-light;
+  }
+
+  .call-to-action {
+    width: 100%;
+    max-width: 400px;
+    height: 80px;
+    line-height: 80px;
+    display: inline-block;
+    background: $color-cta;
+    border: 2px solid $color-cta;
+    font-size: 14px;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    margin-top: 53px;
+
+    &:hover {
+      background: transparent;
+      color: $color-cta;
+    }
+  }
+}

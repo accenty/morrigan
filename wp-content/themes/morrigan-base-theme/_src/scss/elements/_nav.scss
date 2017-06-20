@@ -1,0 +1,21 @@
+.main-nav {
+
+  ul {
+    display: flex;
+  }
+
+  li {
+    margin-left: 32px;
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+
+  a {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .2em;
+  }
+}

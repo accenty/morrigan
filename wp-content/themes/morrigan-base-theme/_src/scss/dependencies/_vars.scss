@@ -1,0 +1,29 @@
+// Colors
+$color-background:         #fff;
+$color-font:               #1a1a1a;
+$color-font-light:         #999;
+
+$color-link:               #fff;
+$color-link-hover-light:   #fff;
+
+$color-cta:                #f03f3f;
+
+$color-neutral-brightest:  $color-background;
+$color-neutral-1:          #ededed;
+$color-neutral-darkest:    #1a1a1a;
+
+// Fonts
+$font-size-base:           62.5%;
+
+$font-family-base:         'Avenir','Avenir LT Std',-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$font-family-heading:      'Now',$font-family-base;
+
+$letter-spacing:           .125em;
+
+// Website dimensions
+$content-width:            1200px;
+
+// Transitions
+$transition-duration:      .75s;
+$transition-fill:          cubic-bezier(0.165, 0.84, 0.44, 1);
+$transition:               all $transition-duration $transition-fill;

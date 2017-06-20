@@ -1,0 +1,70 @@
+.description-with-teasers {
+  position: relative;
+
+  .content-wrap,
+  .image-teasers {
+    display: flex;
+  }
+
+  .description {
+    max-width: 600px;
+    padding: 74px 80px;
+    position: relative;
+    z-index: 1;
+
+    p {
+      font-size: 16px;
+      line-height: 28px;
+      color: $color-background;
+    }
+  }
+
+  .image-teasers {
+    margin-top: -80px;
+    align-self: flex-end;
+
+    figure {
+      margin-left: 60px;
+      overflow: hidden;
+
+      &:hover {
+        img {
+          transform: scale(1.1);
+        }
+      }
+    }
+
+    img {
+      height: auto;
+      display: block;
+      transition: $transition;
+    }
+  }
+}
+
+.lightbox-trigger {
+  display: block;
+  position: relative;
+
+  &::after {
+    border: 2px solid $color-neutral-brightest;
+    font-size: 21px;
+    display: block;
+    content: '+';
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    transition: $transition;
+  }
+
+  &:hover {
+    &::after {
+      background: $color-neutral-brightest;
+      color: $color-font;
+    }
+  }
+}

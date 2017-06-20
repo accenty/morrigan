@@ -1,0 +1,24 @@
+.footer {
+  background: $color-neutral-1;
+  padding: 95px 0;
+  font-size: 14px;
+
+  .content-wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-nav {
+    ul {
+      display: flex;
+    }
+
+    li {
+      margin-left: 20px;
+    }
+
+    a {
+      color: $color-font;
+    }
+  }
+}

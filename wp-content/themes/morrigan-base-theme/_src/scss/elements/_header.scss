@@ -1,0 +1,50 @@
+.header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 100px 0;
+  z-index: 1;
+
+  &.sticky {
+    position: fixed;
+    padding: 30px 0;
+    z-index: 999;
+    background: rgba($color-background,.98);
+    animation: slideFromTop .5s $transition-fill forwards;
+    box-shadow: 0px 3px 10px rgba($color-font,.05);
+
+    .logo {
+      filter: invert(1);
+    }
+
+    .main-nav {
+      a {
+        color: $color-font;
+        font-size: 12px;
+      }
+    }
+
+    @keyframes slideFromTop {
+      0% {
+        transform: translateY(-79px);
+      }
+      100% {
+        transform: translateY(0);
+      }
+    }
+  }
+
+  .content-wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.admin-bar {
+  .header {
+    &.sticky {
+      top: 32px;
+    }
+  }
+}

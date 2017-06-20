@@ -1,0 +1,54 @@
+// Enable border-box for everything
+
+* {
+  box-sizing: border-box;
+}
+
+// Set root font-size for rem use
+
+:root {
+  font-size: $font-size-base;
+}
+
+::selection {
+  background: $color-font;
+  color: $color-background;
+}
+
+// Prevent horizontal scrolling no matter what
+
+html {
+  overflow-x: hidden;
+}
+
+html,
+body {
+  width: 100%;
+}
+
+body {
+  background: $color-background;
+  font-size: 1.6rem;
+  font-family: $font-family-base;
+  color: $color-font;
+
+  &.admin-bar {
+    position: relative;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: $color-link;
+  transition: $transition;
+}
+
+.content-wrap {
+  max-width: $content-width;
+  margin: 0 auto;
+  width: calc(100% - 60px);
+}
+
+main {
+
+}

@@ -1,0 +1,43 @@
+/*
+	Theme Name: Morrigan Base Theme
+	Theme URI: http://accenty.de
+	Description: Base Theme for the Morrigan Flexible Content Management System
+	Version: 0.1 alpha
+	Author: Artur Vazigin (@iamaviate)
+	Author URI: http://iamaviate.net
+  Tags: Morrigan, Base, Theme, HTML5, CSS3
+
+	License: MIT
+	License URI: http://opensource.org/licenses/mit-license.php
+*/
+
+// Libraries
+@import 'lib/normalize';
+@import 'lib/reset';
+@import 'lib/flexslider';
+@import 'lib/magnific-popup';
+
+// Dependencies
+@import 'dependencies/vars';
+@import 'dependencies/fonts';
+@import 'dependencies/mixins';
+
+// Elements
+@import 'elements/general-elements';
+@import 'elements/typography';
+@import 'elements/columns';
+@import 'elements/header';
+@import 'elements/nav';
+@import 'elements/logo';
+@import 'elements/footer';
+@import 'elements/to-top';
+
+@import 'elements/fce/ce';
+@import 'elements/fce/title-container';
+@import 'elements/fce/description-with-teasers';
+@import 'elements/fce/text-teasers';
+@import 'elements/fce/image-gallery';
+@import 'elements/fce/image-text-element';
+@import 'elements/fce/video-element';
+@import 'elements/fce/testimonials';
+@import 'elements/fce/hero-container';
