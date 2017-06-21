@@ -1332,9 +1332,9 @@ a {
       -o-transition-delay: .5s;
       transition-delay: .5s; }
     .ce.title-container .title-image img {
-      -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-      transform: scale(1.1);
+      -webkit-transform: translate(-50%, -50%) scale(1.1);
+      -ms-transform: translate(-50%, -50%) scale(1.1);
+      transform: translate(-50%, -50%) scale(1.1);
       -webkit-transition: all 0.75s cubic-bezier(0.165, 0.84, 0.44, 1);
       -o-transition: all 0.75s cubic-bezier(0.165, 0.84, 0.44, 1);
       transition: all 0.75s cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -1343,9 +1343,9 @@ a {
       transition-duration: 1s;
       opacity: 0; }
     .ce.title-container.transition .title-image img {
-      -webkit-transform: none;
-      -ms-transform: none;
-      transform: none;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
       opacity: 1; }
     .ce.title-container.transition .title-content {
       opacity: 1;
@@ -1405,10 +1405,14 @@ a {
     background: #1a1a1a;
     position: relative; }
     .title-container .title-image img {
+      position: absolute;
+      width: 100%;
       height: auto;
-      display: block;
-      max-width: none;
-      height: 100%; }
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
   .title-container .title-content {
     background: #1a1a1a;
     color: #fff;
@@ -1634,6 +1638,32 @@ a {
 
 .video-element {
   margin-top: 200px; }
+  .video-element .video-wrapper {
+    position: relative;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    background: #000; }
+    .video-element .video-wrapper:before {
+      display: block;
+      content: "";
+      width: 100%;
+      padding-top: 42.85714%; }
+    .video-element .video-wrapper > .content {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0; }
+    .video-element .video-wrapper iframe {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 100%;
+      height: 100%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
   .video-element figure {
     position: relative; }
     .video-element figure::before {
@@ -1757,11 +1787,38 @@ a {
     line-height: 50px;
     font-weight: bold;
     color: #fff; }
+    .hero-container h2 + p {
+      margin-top: 40px; }
+  .hero-container p {
+    color: #fff;
+    margin-top: 24px;
+    line-height: 32px; }
   .hero-container form {
-    max-width: 400px;
     margin: auto;
     margin-top: 45px; }
+    .hero-container form > p {
+      width: 1280px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      margin: 0;
+      max-width: none; }
+    .hero-container form br {
+      display: none; }
+    .hero-container form .wpcf7-form-control-wrap {
+      display: block;
+      position: relative;
+      width: calc(100% / 3);
+      margin-right: 12px; }
+      .hero-container form .wpcf7-form-control-wrap:last-child {
+        margin-right: 0; }
   .hero-container input {
+    font-size: 14px;
     width: 100%;
     display: block;
     -webkit-appearance: none;
@@ -1773,7 +1830,10 @@ a {
     height: 80px;
     -webkit-transition: all 0.75s cubic-bezier(0.165, 0.84, 0.44, 1);
     -o-transition: all 0.75s cubic-bezier(0.165, 0.84, 0.44, 1);
-    transition: all 0.75s cubic-bezier(0.165, 0.84, 0.44, 1); }
+    transition: all 0.75s cubic-bezier(0.165, 0.84, 0.44, 1);
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    float: left; }
     .hero-container input:focus {
       outline: none; }
   .hero-container input[type="email"] {
@@ -1795,13 +1855,13 @@ a {
       opacity: 1;
       color: #fff; }
   .hero-container input[type="submit"] {
-    margin-top: 20px;
     background: #f03f3f;
     border: 5px solid #f03f3f;
     text-transform: uppercase;
     letter-spacing: .2em;
     color: #fff;
-    cursor: pointer; }
+    cursor: pointer;
+    max-width: 250px; }
     .hero-container input[type="submit"]:hover {
       background: transparent;
       color: #f03f3f; }

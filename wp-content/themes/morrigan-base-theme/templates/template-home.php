@@ -1,208 +1,180 @@
 <?php /* Template Name: Home */ get_header(); ?>
 	<main>
-		<div class="title-container ce">
-			<figure class="title-image parallax">
-				<img src="<?php echo get_template_directory_uri(); ?>/img/title-image.png" alt="">
-			</figure>
-			<div class="content-wrap">
-				<div class="title-content">
-					<p>
-						Professionelle <br/>
-						Autofotografie und Bildbearbeitung.
-					</p>
-					<a href="#" class="scroll-down">Scrolle nach unten</a>
-				</div>
-			</div>
-		</div><!-- title-container -->
-		<div class="description-with-teasers ce">
-			<div class="content-wrap">
-				<div class="description" style="background-color: #B8CCC2">
-					<p>
-						Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-					</p>
-				</div>
-				<div class="image-teasers">
-					<figure>
-						<a href="<?php echo get_template_directory_uri(); ?>/img/image-teaser-01.png" title="Bildunterschrift Element 1 Lorem ipsum dolor siktir lan" class="lightbox-trigger">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/image-teaser-01.png" alt="">
-						</a>
-					</figure>
-					<figure>
-						<a href="<?php echo get_template_directory_uri(); ?>/img/image-teaser-02.png" title="Bildunterschrift Element 2 Lorem ipsum dolor siktir lan" class="lightbox-trigger">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/image-teaser-02.png" alt="">
-						</a>
-					</figure>
-				</div>
-			</div>
-		</div><!-- description-with-teasers -->
-		<div class="text-teasers ce">
-			<div class="content-wrap">
-				<a class="teaser" href="#">
-					<h2>
-						Lorem Ipsum Dolor Sit Amed.
-					</h2>
-					<p>
-						Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et.
-					</p>
-				</a>
-				<a class="teaser" href="#">
-					<h2>
-						Lorem Ipsum Dolor Sit Amed.
-					</h2>
-					<p>
-						Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et.
-					</p>
-				</a>
-				<a class="teaser" href="#">
-					<h2>
-						Lorem Ipsum Dolor Sit Amed.
-					</h2>
-					<p>
-						Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et.
-					</p>
-				</a>
-				<a class="teaser" href="#">
-					<h2>
-						Lorem Ipsum Dolor Sit Amed.
-					</h2>
-					<p>
-						Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et.
-					</p>
-				</a>
-			</div>
-		</div><!-- text-teasers -->
-		<div class="image-gallery ce">
-			<figure class="gallery-item">
-				<a href="<?php echo get_template_directory_uri(); ?>/img/gallery-item-01.png" class="lightbox-trigger-gallery">
-					<img src="<?php echo get_template_directory_uri(); ?>/img/gallery-item-01.png" alt="">
-				</a>
-			</figure>
-			<figure class="gallery-item">
-				<a href="<?php echo get_template_directory_uri(); ?>/img/gallery-item-02.png" class="lightbox-trigger-gallery">
-					<img src="<?php echo get_template_directory_uri(); ?>/img/gallery-item-02.png" alt="">
-				</a>
-			</figure>
-			<figure class="gallery-item">
-				<a href="<?php echo get_template_directory_uri(); ?>/img/gallery-item-03.png" class="lightbox-trigger-gallery">
-					<img src="<?php echo get_template_directory_uri(); ?>/img/gallery-item-03.png" alt="">
-				</a>
-			</figure>
-			<figure class="gallery-item">
-				<a href="<?php echo get_template_directory_uri(); ?>/img/gallery-item-04.png" class="lightbox-trigger-gallery">
-					<img src="<?php echo get_template_directory_uri(); ?>/img/gallery-item-04.png" alt="">
-				</a>
-			</figure>
-			<figure class="gallery-item">
-				<a href="<?php echo get_template_directory_uri(); ?>/img/gallery-item-05.png" class="lightbox-trigger-gallery">
-					<img src="<?php echo get_template_directory_uri(); ?>/img/gallery-item-05.png" alt="">
-				</a>
-			</figure>
-			<figure class="gallery-item">
-				<a href="<?php echo get_template_directory_uri(); ?>/img/gallery-item-06.png" class="lightbox-trigger-gallery">
-					<img src="<?php echo get_template_directory_uri(); ?>/img/gallery-item-06.png" alt="">
-				</a>
-			</figure>
-		</div><!-- image-gallery -->
-		<div class="image-text-element ce">
-			<div class="content-wrap">
-				<h2>
-					Lorem Ipsum Dolor Sit <br> Amend Sik de lan amanak Kodum.
-				</h2>
-				<p>
-					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-				</p>
-				<p>
-					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-				</p>
+  <?php
+    // check if the flexible content field has rows of data
+    if( have_rows('content-elements') ):
+         // loop through the rows of data
+        while ( have_rows('content-elements') ) : the_row();
 
-				<a href="#" class="call-to-action">Anfrage abschicken</a>
-			</div>
-		</div><!-- image-text-element -->
-		<div class="video-element ce">
-			<figure class="gallery-item">
-				<a href="<?php echo get_template_directory_uri(); ?>/img/video-preview-01.png">
-					<img src="<?php echo get_template_directory_uri(); ?>/img/video-preview-01.png" alt="">
-				</a>
-			</figure>
-		</div><!-- video-element -->
-		<div class="testimonials ce">
-			<div class="content-wrap">
-				<h3>
-					Feedback zufriedener <br/> Kunden & Partner
-				</h3>
-				<div class="flexslider">
-				  <ul class="slides">
-				    <li class="slide">
-							<div class="inner-content">
-								<p>
-									Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-								</p>
-								<div class="user">
-									<figure>
-										<img src="<?php echo get_template_directory_uri(); ?>/img/testimonial-user-01.png" alt="">
-									</figure>
-									<div class="user-info">
-										<p><strong>Barack Obama</strong></p>
-										<p>President of the USA</p>
-									</div>
+            // BEGIN TITLE CONTAINER
+            if(get_row_layout() == 'ce_title-container'): ?>
+            <div class="title-container ce">
+              <figure class="title-image parallax">
+                <img src="<?php the_sub_field('ce_title-container-title-image'); ?>" />
+              </figure>
+              <div class="content-wrap">
+                <div class="title-content">
+                  <p><?php the_sub_field('ce_title-container-h1'); ?></p>
+                  <a href="#" class="scroll-down"><?php the_sub_field('ce_title-container_link-text'); ?></a>
+                </div>
+              </div>
+            </div>
+          <?php
+					// END TITLE CONTAINER
+          // BEGIN DESCRIPTION WITH TEASERS
+            elseif( get_row_layout() == 'ce_description-with-teasers' ): ?>
+            <div class="description-with-teasers ce">
+              <div class="content-wrap">
+								<div class="description" style="background-color: #B8CCC2">
+									<?php the_sub_field('ce_description-with-teasers_text'); ?>
 								</div>
-							</div>
-				    </li>
-				    <li class="slide">
-							<div class="inner-content">
-								<p>
-									Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-								</p>
-								<div class="user">
-									<figure>
-										<img src="<?php echo get_template_directory_uri(); ?>/img/testimonial-user-01.png" alt="">
-									</figure>
-									<div class="user-info">
-										<p><strong>Barack Obama</strong></p>
-										<p>President of the USA</p>
-									</div>
+								<?php
+									// check if the nested repeater field has rows of data
+									if( have_rows('ce_description-with-teasers_teaser') ): ?>
+									<div class="image-teasers">
+										<?php
+										// loop through the rows of data
+										while ( have_rows('ce_description-with-teasers_teaser') ) : the_row(); ?>
+										<figure>
+											<a href="<?php the_sub_field('ce_description-with-teasers_teaser-img-full') ?>" class="lightbox-trigger" title="<?php the_sub_field('ce_description-with-teasers_teaser-img-caption') ?>">
+												<img src="<?php the_sub_field('ce_description-with-teasers_teaser-img') ?>" alt="<?php the_sub_field('ce_description-with-teasers_teaser-img-caption') ?>">
+											</a>
+										</figure>
+									<?php endwhile; ?>
 								</div>
+								<?php
+							endif;
+							?>
+              </div>
+              </div>
+            </div>
+          <?php // END DESCRIPTION WITH TEASERS
+            // BEGIN TEXT-TEASERS
+            elseif(get_row_layout() == 'ce_text-teasers'): ?>
+            <div class="text-teasers ce">
+              <div class="content-wrap">
+								<?php
+									// check if the nested repeater field has rows of data
+									if( have_rows('ce_text-teasers_teaser') ): ?>
+										<?php
+										// loop through the rows of data
+										while ( have_rows('ce_text-teasers_teaser') ) : the_row(); ?>
+										<a class="teaser" href="<?php the_sub_field('ce_text-teasers_teaser-link'); ?>">
+                      <h2>
+                        <?php the_sub_field('ce_text-teasers_teaser-headline'); ?>
+                      </h2>
+                      <?php the_sub_field('ce_text-teasers_teaser-text'); ?>
+										</a>
+									<?php endwhile; ?>
+								<?php
+							endif;
+							?>
+              </div>
+            </div>
+            <?php
+            // END TEXT-TEASERS
+            // BEGIN IMAGE GALLERY
+            elseif(get_row_layout() == 'ce_image-gallery'): ?>
+            <div class="image-gallery ce">
+								<?php
+									// check if the nested repeater field has rows of data
+									if( have_rows('ce_image-gallery_image') ): ?>
+										<?php
+										// loop through the rows of data
+										while ( have_rows('ce_image-gallery_image') ) : the_row(); ?>
+                    <figure class="gallery-item">
+                      <a class="lightbox-trigger-gallery" href="<?php the_sub_field('ce_image-gallery_image-full'); ?>">
+                        <img src="<?php the_sub_field('ce_image-gallery_image-small'); ?>" alt="">
+                      </a>
+                    </figure>
+									<?php endwhile; ?>
+								<?php
+							endif;
+							?>
+            </div>
+            <?php
+            // END IMAGE-GALLERY
+            // BEGIN IMAGE-TEXT-ELEMENT
+            elseif(get_row_layout() == 'ce_image-text-element'): ?>
+            <div class="image-text-element ce">
+              <div class="content-wrap">
+                <?php the_sub_field('ce_image-text-element_content'); ?>
+                <?php if(get_sub_field('ce_image-text-element_call-to-action_url')): ?>
+                  <a class="call-to-action" href="<?php the_sub_field('ce_image-text-element_call-to-action_url'); ?>">
+                    <?php the_sub_field('ce_image-text-element_call-to-action'); ?>
+                  </a>
+                <?php endif; ?>
+              </div>
+            </div>
+            <?php
+            // END IMAGE-TEXT-ELEMENT
+            // BEGIN VIDEO-ELEMENT
+            elseif(get_row_layout() == 'ce_video-element'): ?>
+            <div class="video-element ce">
+							<div class="video-wrapper">
+								<?php the_sub_field('ce_video-element_youtube-embed'); ?>
 							</div>
-				    </li>
-				    <li class="slide">
-							<div class="inner-content">
-								<p>
-									Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-								</p>
-								<div class="user">
-									<figure>
-										<img src="<?php echo get_template_directory_uri(); ?>/img/testimonial-user-01.png" alt="">
-									</figure>
-									<div class="user-info">
-										<p><strong>Barack Obama</strong></p>
-										<p>President of the USA</p>
-									</div>
-								</div>
+            </div>
+            <?php
+            // END VIDEO-ELEMENT
+            // BEGIN TESTIMONIALS
+            elseif(get_row_layout() == 'ce_testimonials'): ?>
+            <div class="testimonials ce">
+              <h3><?php the_sub_field('ce_testimonials_headline'); ?></h3>
+                <?php
+                	// check if the nested repeater field has rows of data
+                	if( have_rows('ce_testimonials_slide') ): ?>
+                  <div class="flexslider">
+										<ul class="slides">
+            			 	<?php // loop through the rows of data
+            			    while ( have_rows('ce_testimonials_slide') ) : the_row(); ?>
+                      <li class="slide">
+                        <div class="inner-content">
+                          <?php the_sub_field('ce_testimonials_slide-text'); ?>
+                          <div class="user">
+                            <figure>
+                              <img src="<?php the_sub_field('ce_testimonials_client-photo'); ?>" alt="">
+                            </figure>
+                            <div class="user-info">
+                              <?php the_sub_field('ce_testimonials_client-name'); ?>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+            				<?php endwhile; ?>
+										</ul>
+										<div class="slider-controls-container"></div>
+										<div class="slider-navigation">
+											<a href="#" class="flex-prev"><span>Prev</span></a>
+											<a href="#" class="flex-next"><span>Next</span></a>
+										</div>
+										</div>
+                  </div>
+          			<?php
+          			endif;
+                ?>
+            </div>
+            <?php
+            // END TESTIMONIALS
+						elseif(get_row_layout() == 'ce_hero-container'): ?>
+						<div class="hero-container ce">
+							<div class="content-wrap">
+								<?php the_sub_field('ce_hero-container_content'); ?>
+								<?php
+								 	$shortcode = get_sub_field('ce_hero-container_form-shortcode');
+									echo do_shortcode($shortcode);
+								?>
 							</div>
-				    </li>
-				  </ul>
-					<div class="slider-controls-container"></div>
-					<div class="slider-navigation">
-						<a href="#" class="flex-prev"><span>Prev</span></a>
-						<a href="#" class="flex-next"><span>Next</span></a>
-					</div>
-				</div>
-			</div>
-		</div><!-- testimonials -->
-		<div class="hero-container ce">
-			<div class="content-wrap">
-				<h2>
-					Sie möchten Ihre Fahrzeuge ablichten lassen? Kontaktieren Sie uns!
-				</h2>
-				<form>
-					<input type="email" placeholder="Ihre E-Mail-Adresse">
-					<input type="submit" value="Anfrage Abschicken">
-				</form>
-			</div>
-			<figure class="hero-image">
-				<img src="<?php echo get_template_directory_uri(); ?>/img/hero-image-01.png" alt="">
-			</figure>
-		</div><!-- hero-container -->
+							<figure class="hero-image">
+								<img src="<?php the_sub_field('ce_hero-container_image'); ?>" alt="">
+							</figure>
+						</div>
+						<?php endif;
+        endwhile;
+    else:
+        // no layouts found
+    endif;
+  ?>
 	</main>
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

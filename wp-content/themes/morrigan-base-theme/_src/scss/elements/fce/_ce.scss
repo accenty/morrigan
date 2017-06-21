@@ -21,7 +21,7 @@
 
     .title-image {
       img {
-        transform: scale(1.1);
+        transform: translate(-50%,-50%) scale(1.1);
         transition: $transition;
         transition-duration: 1s;
         opacity: 0;
@@ -31,7 +31,7 @@
     &.transition {
       .title-image {
         img {
-          transform: none;
+          transform: translate(-50%,-50%);
           opacity: 1;
         }
       }
